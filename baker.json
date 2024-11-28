@@ -1,4 +1,11 @@
 {
-    "generate_main": "y",
-    "license": "MIT"
+    "licence": {
+        "type": "array",
+        "choices": ["MIT", "Apache"],
+        "question": "What is your licence?"
+    },
+    "generate_main": {
+        "type": "boolean",
+        "question": "Should I generate main.py file?"
+    }
 }
