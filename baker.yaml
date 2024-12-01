@@ -1,0 +1,10 @@
+licence:
+  type: str
+  choices:
+  - MIT
+  - Apache
+  help: What is your licence?
+generate_main:
+  type: bool
+  help: Should I generate main.py file?
+  default: false
